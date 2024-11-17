@@ -1,0 +1,58 @@
+body{
+  background-color:aquamarine;
+  color: white;
+}
+.titulo{
+  color: rgb(235, 166, 37);
+  text-align: center;
+}
+#bienvenido {
+  font-size: 18px;
+  color:black;
+  text-align: center;
+  text-transform: uppercase;
+}
+.encabezado{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+.logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap:8px;
+  list-style-type: none;
+}
+.formContainer{
+  
+            background-color: #fff;
+            color: black;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+            margin: 0 auto;
+ }
+label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+}
+input[type="text"], input[type="number"], select, textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+textarea{
+  color: black;
+}
